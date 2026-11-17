@@ -1,4 +1,5 @@
 {
+  // Editor behavior and appearance
   "editor.cursorBlinking": "smooth",
   "editor.wordWrap": "on",
   "workbench.iconTheme": "material-icon-theme",
@@ -6,6 +7,7 @@
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 1000,
 
+  // Formatting defaults (requires the Prettier extension)
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
@@ -19,6 +21,7 @@
   "prettier.tabWidth": 2,
   "prettier.useTabs": false,
 
+  // Treat common extensions as their intended languages
   "files.associations": {
     "*.js": "javascript",
     "*.jsx": "javascriptreact",
@@ -27,6 +30,7 @@
     "*.json": "json"
   },
 
+  // Custom file and folder icons (requires Material Icon Theme)
   "material-icon-theme.files.associations": {
     "*.model.js": "coffee",
     "*.model.ts": "coffee",
@@ -80,6 +84,7 @@
     "graphql": "graphql"
   },
 
+  // Workbench, Git, and other workflow preferences
   "workbench.startupEditor": "none",
   "workbench.settings.editor": "json",
   "json.schemas": [],
@@ -95,8 +100,12 @@
   "window.newWindowProfile": "Default",
   "terminal.integrated.initialHint": false,
   "githubPullRequests.createOnPublishBranch": "never",
+
+  // Settings used by optional extensions
   "js/ts.updateImportsOnFileMove.enabled": "always",
   "console-ninja.featureSet": "Community",
+  "code-runner.runInTerminal": true,
+  "code-runner.saveFileBeforeRun": true,
   "chat.viewSessions.orientation": "stacked",
   "chat.editing.confirmEditRequestRemoval": false,
   "terminal.integrated.mouseWheelScrollSensitivity": 3,
