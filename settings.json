@@ -58,10 +58,7 @@
     "package.json": "npm",
     "package-lock.json": "npm",
     "Dockerfile": "docker",
-    "*.test.js": "test",
     "*.spec.js": "test",
-    "*.config.js": "config",
-    "*.config.ts": "config",
     "README.md": "readme"
   },
 
@@ -79,7 +76,6 @@
     "seeders": "seed",
     "seeds": "seed",
     "src": "src",
-    "config": "config",
     "styles": "sass",
     "graphql": "graphql"
   },
@@ -99,5 +95,11 @@
   "window.newWindowProfile": "Default",
   "terminal.integrated.initialHint": false,
   "githubPullRequests.createOnPublishBranch": "never",
-  "js/ts.updateImportsOnFileMove.enabled": "always"
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+  "console-ninja.featureSet": "Community",
+  "chat.viewSessions.orientation": "stacked",
+  "chat.editing.confirmEditRequestRemoval": false,
+  "terminal.integrated.mouseWheelScrollSensitivity": 3,
+  "terminal.integrated.gpuAcceleration": "off",
+  "claudeCode.useTerminal": true
 }
